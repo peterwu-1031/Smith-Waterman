@@ -9,5 +9,5 @@
 ### 2. SW_syn.v:
 ### <pre> ncverilog tb.v SW_syn.v tsmc13.v +define+tb1+SDFSYN </pre>
 ### 3. SW_APR.v: 
-### <pre> ncverilog tb.v SW_APR.v -v ./syn/tsmc13_neg.v +define+tb1+SDFAPR +ncmaxdelays </pre>
+### <pre> ncverilog tb.v SW_APR.v -v tsmc13_neg.v +define+tb1+SDFAPR +ncmaxdelays </pre>
 #### P.S. The testbench file provides three test cases. (tb1, tb2, tb3)
