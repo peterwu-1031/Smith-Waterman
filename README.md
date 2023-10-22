@@ -3,7 +3,7 @@
 ### 2. The circuit (SW.v) was synthesized with Synopsys Design Compiler (to SW_syn.v) and the APR process was done with Cadence Innovus (to SW_APR.v). 
 ### 3. The details of synthesis are in SW_area/power/timing.txt and the details of APR are in summaryReport.rpt.
 # How it works
-### To run the testbench file, users should acquire the file 'license.cshrc' and run the command 'source license.cshrc'.
+### To run the testbench file, users should acquire the file 'license.cshrc' and first run the command 'source license.cshrc'.
 ### 1. SW.v: 
 ### <pre> ncverilog tb.v SW.v +define+tb1 </pre>
 ### 2. SW_syn.v:
